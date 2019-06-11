@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="in.ac.sharda.productdetail.ProductDetailActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewProductName"
+        android:textColor="#F00"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:text="Product Name"/>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imgProduct" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewProductDescripition"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:text="Product Descripition"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPrice"
+        android:text="Price"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="32dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddToCart"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Add to Cart"/>
+
+</LinearLayout>
