@@ -3,36 +3,40 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:layout_height="match_parent"
     tools:context=".MainActivity">
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imglogo"
+        android:id="@+id/imgLogo"
         android:src="@drawable/logo"/>
-
-   <EditText
-       android:layout_width="fill_parent"
-       android:layout_height="wrap_content"
-       android:id="@+id/editTextUserName"
-       android:maxLines="1"
-       android:hint="Enter User Name" />
 
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editTextPassword"
+        android:id="@+id/editTextUserName"
         android:maxLines="1"
+        android:hint="Enter User Name"
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPassword"
         android:inputType="textPassword"
-        android:hint="Enter Password" />
-
+        android:maxLines="1"
+        android:hint="Enter Password"/>
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnSubmit"
         android:textColor="@color/colorPrimary"
-        android:text="Login"/>
+        android:text="Login" />
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list">
+
+    </ListView>
 </LinearLayout>
